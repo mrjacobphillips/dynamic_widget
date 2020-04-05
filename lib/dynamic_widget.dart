@@ -23,6 +23,7 @@ import 'package:dynamic_widget/dynamic_widget/basic/selectabletext_widget_parser
 import 'package:dynamic_widget/dynamic_widget/basic/wrap_widget_parser.dart';
 import 'package:dynamic_widget/dynamic_widget/basic/dropcaptext_widget_parser.dart';
 import 'package:dynamic_widget/dynamic_widget/basic/icon_widget_parser.dart';
+import 'package:dynamic_widget/dynamic_widget/basic/hero_widget_parser.dart';
 import 'package:dynamic_widget/dynamic_widget/scrolling/gridview_widget_parser.dart';
 import 'package:dynamic_widget/dynamic_widget/scrolling/listview_widget_parser.dart';
 import 'package:dynamic_widget/dynamic_widget/scrolling/pageview_widget_parser.dart';
@@ -64,6 +65,7 @@ class DynamicWidgetBuilder {
     WrapWidgetParser(),
     DropCapTextParser(),
     IconWidgetParser(),
+    HeroWidgetParser(),
     ClipRRectWidgetParser(),
     SafeAreaWidgetParser(),
     ListTileWidgetParser()
